@@ -1,0 +1,31 @@
+{
+  "name": "genesis",
+  "version": "1.0.0",
+  "description": "An API using multichain",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndresMpa/genesis.git"
+  },
+  "keywords": [
+    "js",
+    "multichain",
+    "api"
+  ],
+  "author": "AndresMpa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndresMpa/genesis/issues"
+  },
+  "homepage": "https://github.com/AndresMpa/genesis#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-promise-router": "^4.1.1",
+    "multichain-node": "^2.2.0-version1.0.4"
+  }
+}
